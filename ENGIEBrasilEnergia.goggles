@@ -1,0 +1,12 @@
+! name: ENGIE Brasil Energia
+! description: Boost results from ENGIE website
+! public: false
+! author: Cogfy
+! avatar: #000000
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+$boost=10,site=www.engie.com.br
+$boost=10,site=engie.com.br
