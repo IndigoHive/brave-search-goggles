@@ -1,0 +1,12 @@
+! name: 4CINCO
+! description: Boost results from 4CINCO website
+! public: false
+! author: Cogfy
+! avatar: #000000
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+$boost=10,site=4cinco.com
+$boost=10,site=www.4cinco.com
