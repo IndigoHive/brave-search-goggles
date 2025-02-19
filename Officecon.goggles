@@ -1,0 +1,12 @@
+! name: Officecon
+! description: Boost results for Officecon workspace
+! public: false
+! author: Leandro Watanabe
+! avatar: #000000
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+$boost=10,site=www.jusbrasil.com.br
+$boost=10,site=jusbrasil.com.br
