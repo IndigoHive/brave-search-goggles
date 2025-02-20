@@ -6,8 +6,9 @@
 
 ! Remove results not matching any other rule
 $discard
+/noticias/$discard
+
 
 ! Boost some results
 $boost=10,site=www.jusbrasil.com.br
 $boost=10,site=jusbrasil.com.br
-/noticias/$boost=-10,site=www.jusbrasil.com.br
