@@ -1,0 +1,25 @@
+! name: Gov.br Search
+! description: Prioriza busca nos sites oficiais do governo.
+! public: false
+! author: me
+
+$discard
+! Adding GOV.BR's website
+$boost=10,site=www.gov.br
+$boost=10,site=gov.br
+
+! Adding planalto's website
+$boost=10,site=www.planalto.gov.br
+$boost=10,site=planalto.gov.br
+
+! Adding Caixa's website
+$boost=10,site=www.caixa.gov.br
+$boost=10,site=caixa.gov.br
+
+! Adding portal IN website
+$boost=10,site=www.portalin.inss.gov.br
+$boost=10,site=portalin.inss.gov.br
+
+! Adding pesquisa.in website
+$boost=10,site=www.pesquisa.in.gov.br
+$boost=10,site=pesquisa.in.gov.br
