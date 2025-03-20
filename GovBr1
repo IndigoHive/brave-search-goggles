@@ -4,10 +4,13 @@
 ! author: me
 
 $discard
+noticias/$discard
+$discard,site=capital.sp.gov.br
+$discard,site=iprev.df.gov.br
+
 ! Adding GOV.BR's website
 $boost=10,site=www.gov.br
 $boost=10,site=gov.br
-noticias/$downrank=10
 
 ! Adding planalto's website
 $boost=10,site=www.planalto.gov.br
