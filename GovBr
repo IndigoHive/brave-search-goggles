@@ -8,8 +8,6 @@ $discard
 $boost=10,site=www.gov.br
 $boost=10,site=gov.br
 noticias/$downrank=10
-/noticias/$downrank=10, site=www.gov.br
-/noticias/$downrank=10, site=gov.br
 
 ! Adding planalto's website
 $boost=10,site=www.planalto.gov.br
