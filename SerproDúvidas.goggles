@@ -1,0 +1,13 @@
+! name: Serpro Dúvidas
+! description: Prioriza busca nos sites oficiais do governo.
+! public: false
+! author: Pedro Braga
+
+! Remove results not matching any other rule
+$discard
+
+! Adding GOV.BR's website
+$boost=10, site=www.gov.br
+$boost=10, site=gov.br
+
+/governodigital/pt-br/acessibilidade-e-usuario/atendimento-gov.br/duvidas-na-conta-gov.brˆ$boost=10, site=gov.br
