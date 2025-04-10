@@ -7,5 +7,5 @@
 $discard
 
 ! Adding GOV.BR's website
+$boost=10,site=www.gov.br
 $boost=10,site=gov.br
-$boost=9,site=gov.br/governodigital/pt-br/identidade/conta-gov-br/ajuda-da-conta-gov.br
