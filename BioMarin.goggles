@@ -1,0 +1,13 @@
+! name: BioMarin journals
+! description: Boost results for scientific papers
+! public: false
+! author: Pedro Braga
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+$boost=10,site=www.aap.org
+$boost=10,site=jamanetwork.com
+$boost=10,site=www.nejm.org
+$boost=10,site=www.science.org
