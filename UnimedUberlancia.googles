@@ -1,0 +1,12 @@
+! name: Unimed Uberlândia
+! description: Boost results for Unimed Uberlândia workspace
+! public: false
+! author: Felipe Dourado
+
+! Remove results not matching any other rule
+$discard
+
+
+! Boost some results
+$boost=10,site=unimeduberlandia.coop.br
+$boost=10,site=www.unimeduberlandia.coop.br
