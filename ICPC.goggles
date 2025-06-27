@@ -1,6 +1,8 @@
 ! name: ICPC-3
+! description: Boost results from ICPC-3 website
 ! public: false
 ! author: Cogfy
+! avatar: #000000
 
 ! Remove results not matching any other rule
 $discard
