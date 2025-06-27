@@ -1,0 +1,10 @@
+! name: ICPC-3
+! public: false
+! author: Cogfy
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+$boost=10,site=https://brasil.icpc-3.info
+$boost=10,site=brasil.icpc-3.info
