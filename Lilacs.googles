@@ -1,0 +1,11 @@
+! name: Lilacs
+! description: Boost results for Docta workspace
+! public: false
+! author: Felipe Dourado
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+$boost=10,site=lilacs.bvsalud.org
+$boost=10,site=www.lilacs.bvsalud.org
