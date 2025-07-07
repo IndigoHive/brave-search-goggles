@@ -1,0 +1,11 @@
+! name: SciELO
+! description: Boost results for Docta workspace
+! public: false
+! author: Felipe Dourado
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+$boost=10,site=scielo.br
+$boost=10,site=www.scielo.br
