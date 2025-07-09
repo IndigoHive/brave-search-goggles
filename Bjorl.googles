@@ -7,4 +7,4 @@
 $discard
 
 ! Boost some results
-$boost=10,site=www.bjorl.org/
+$boost=10,site=www.bjorl.org
