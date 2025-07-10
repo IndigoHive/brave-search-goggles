@@ -7,5 +7,4 @@
 $discard
 
 ! Boost some results
-$boost=10,site=scielo.br/j/abc
 $boost=10,site=www.scielo.br/j/abc
