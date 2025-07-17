@@ -1,0 +1,11 @@
+! name: Scielo Bjorl
+! description: Boost results for Docta workspace
+! public: false
+! author: Felipe Dourado
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+www.scielo.br/j/abc
+

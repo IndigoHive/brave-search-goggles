@@ -1,0 +1,11 @@
+! name: Aborl
+! description: Boost results from Aborl website
+! public: false
+! author: Felipe Dourado
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+$boost=10,site=aborlccf.org.br
+$boost=10,site=www.aborlccf.org.br
