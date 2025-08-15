@@ -1,0 +1,12 @@
+! name: Luminar Saude Adesão
+! description: Boost results for Luminar workspace
+! public: false
+! author: Felipe Dourado
+
+! Remove results not matching any other rule
+$discard
+
+
+! Boost some results
+$boost=10,site=luminarsaude.org.br/adesao-luminar-saude
+$boost=10,site=www.luminarsaude.org.br/adesao-luminar-saude
