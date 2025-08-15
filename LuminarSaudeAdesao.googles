@@ -8,5 +8,5 @@ $discard
 
 
 ! Boost some results
-$boost=10,site=luminarsaude.org.br/adesao-luminar-saude
-$boost=10,site=www.luminarsaude.org.br/adesao-luminar-saude
+luminarsaude.org.br/adesao-luminar-saude
+www.luminarsaude.org.br/adesao-luminar-saude
