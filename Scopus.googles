@@ -1,4 +1,4 @@
-! name: PubMed
+! name: Scopus
 ! description: Boost results in scopus website
 ! public: false
 ! author: Felipe Dourado
@@ -9,3 +9,4 @@ $discard
 ! Boost some results
 $boost=10,site=scopus.com
 $boost=10,site=www.scopus.com
+i
