@@ -1,0 +1,11 @@
+! name: PubMed
+! description: Boost results in scopus website
+! public: false
+! author: Felipe Dourado
+
+! Remove results not matching any other rule
+$discard
+
+! Boost some results
+$boost=10,site=scopus.com
+$boost=10,site=www.scopus.com
