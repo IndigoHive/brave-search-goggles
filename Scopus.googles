@@ -9,4 +9,3 @@ $discard
 ! Boost some results
 $boost=10,site=scopus.com
 $boost=10,site=www.scopus.com
-i
